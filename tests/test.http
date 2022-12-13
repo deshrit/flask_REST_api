@@ -1,0 +1,33 @@
+GET http://localhost:5000/api/users
+
+###
+GET http://localhost:5000/api/user/1
+
+###
+POST  http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+    "id":2,
+    "name":"user2"
+}
+
+###
+POST  http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+    "id":3,
+    "name":"user3"
+}
+
+###
+PATCH  http://localhost:5000/api/user/3
+Content-Type: application/json
+
+{
+    "name":"USER3"
+}
+
+###
+DELETE http://localhost:5000/api/user/3
