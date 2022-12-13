@@ -13,6 +13,26 @@ git clone git@github.com:deshrit/flask_REST_api.git
 cd flask_REST_api
 ```
 
+**Create virtual env**
+```
+python -m venv venv
+```
+
+**Activate virtual env for linux**
+```
+source venv/bin/activate
+```
+
+**Activate virtual env for linux (cmd)**
+```
+venv\Scripts\activate.bat
+```
+
+**Install requirements**
+```
+pip install -r requirements.txt
+```
+
 **Run server**
 ```
 flask --app rest_api run
