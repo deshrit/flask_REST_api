@@ -1,5 +1,5 @@
 # flask_REST_api
-RESTful service using flask using file
+RESTful service using flask, storing data in json file
 
 ## For demo
 
