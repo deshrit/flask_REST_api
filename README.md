@@ -23,7 +23,7 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-**Activate virtual env for linux (cmd)**
+**Activate virtual env for windows (cmd)**
 ```
 venv\Scripts\activate.bat
 ```
